@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.22000000000000003" tests="23" failures="0">
+    <testsuite name="Root Suite" timestamp="2022-12-09T07:11:31" tests="0" failures="0" time="0"/>
+    <testsuite name="Accessories Controller" timestamp="2022-12-09T07:11:33" tests="12" file="/Users/shwetapatel/workspace/github-fchm8v-hj8bvc/test/controllers/AccessoriesController.test.js" failures="0" time="0.14600000000000002">
+        <testcase name="Accessories Controller post /accessories" time="0.045" classname="post /accessories"/>
+        <testcase name="Accessories Controller post /accessories bad request" time="0.008" classname="post /accessories bad request"/>
+        <testcase name="Accessories Controller get /accessories" time="0.021" classname="get /accessories"/>
+        <testcase name="Accessories Controller get /accessories error" time="0.014" classname="get /accessories error"/>
+        <testcase name="Accessories Controller search /accessories limit" time="0.009" classname="search /accessories limit"/>
+        <testcase name="Accessories Controller search /accessories skip" time="0.007" classname="search /accessories skip"/>
+        <testcase name="Accessories Controller search /accessories sort" time="0.007" classname="search /accessories sort"/>
+        <testcase name="Accessories Controller put /accessories" time="0.008" classname="put /accessories"/>
+        <testcase name="Accessories Controller delete /accessories" time="0.01" classname="delete /accessories"/>
+        <testcase name="Accessories Controller delete /accessories/undefined" time="0.004" classname="delete /accessories/undefined"/>
+        <testcase name="Accessories Controller delete /accessories" time="0.006" classname="delete /accessories"/>
+        <testcase name="Accessories Controller deleteAll /accessories" time="0.007" classname="deleteAll /accessories"/>
+    </testsuite>
+    <testsuite name="manufacturer Controller" timestamp="2022-12-09T07:11:33" tests="11" file="/Users/shwetapatel/workspace/github-fchm8v-hj8bvc/test/controllers/ManufacturerController.test.js" failures="0" time="0.07400000000000001">
+        <testcase name="manufacturer Controller post /manufacturer" time="0.007" classname="post /manufacturer"/>
+        <testcase name="manufacturer Controller post /manufacturer bad request" time="0.012" classname="post /manufacturer bad request"/>
+        <testcase name="manufacturer Controller get /manufacturer" time="0.01" classname="get /manufacturer"/>
+        <testcase name="manufacturer Controller get /manufacturer/1" time="0.011" classname="get /manufacturer/1"/>
+        <testcase name="manufacturer Controller get /manufacturer/fake" time="0.004" classname="get /manufacturer/fake"/>
+        <testcase name="manufacturer Controller get /manufacturer/100000" time="0.004" classname="get /manufacturer/100000"/>
+        <testcase name="manufacturer Controller delete /manufacturer" time="0.007" classname="delete /manufacturer"/>
+        <testcase name="manufacturer Controller delete /manufacturer 404" time="0.005" classname="delete /manufacturer 404"/>
+        <testcase name="manufacturer Controller delete /manufacturer bad request" time="0.004" classname="delete /manufacturer bad request"/>
+        <testcase name="manufacturer Controller delete all /manufacturer" time="0.004" classname="delete all /manufacturer"/>
+        <testcase name="manufacturer Controller post /manufacturer" time="0.006" classname="post /manufacturer"/>
+    </testsuite>
+    <testsuite name="CarsApi Test Coverage" errors="0" package="CarsApi Test Coverage" hostname="localhost" tests="10" failures="13" time="0.111" timestamp="" id="3">
+        <properties/>
+        <testcase name="CarsApi Test Coverage" time="0" classname="Coverage failure">
+            <failure type="">Missing Test Coverage </failure>
+        </testcase>
+        <testcase name="CarsApi Test Coverage" time="0" classname="Coverage failure">
+            <failure type="">Missing Test Coverage </failure>
+        </testcase>
+        <testcase name="CarsApi Test Coverage" time="0" classname="Coverage failure">
+            <failure type="">Missing Test Coverage </failure>
+        </testcase>
+        <testcase name="CarsApi Test Coverage" time="0" classname="Coverage failure">
+            <failure type="">Missing Test Coverage </failure>
+        </testcase>
+        <testcase name="CarsApi Test Coverage" time="0" classname="Coverage failure">
+            <failure type="">Missing Test Coverage </failure>
+        </testcase>
+        <testcase name="CarsApi Test Coverage" time="0" classname="Coverage failure">
+            <failure type="">Missing Test Coverage </failure>
+        </testcase>
+        <testcase name="CarsApi Test Coverage" time="0" classname="Coverage failure">
+            <failure type="">Missing Test Coverage </failure>
+        </testcase>
+        <testcase name="CarsApi Test Coverage" time="0" classname="Coverage failure">
+            <failure type="">Missing Test Coverage </failure>
+        </testcase>
+        <testcase name="CarsApi Test Coverage" time="0" classname="Coverage failure">
+            <failure type="">Missing Test Coverage </failure>
+        </testcase>
+        <testcase name="CarsApi Test Coverage" time="0" classname="Coverage failure">
+            <failure type="">Missing Test Coverage </failure>
+        </testcase>
+        <testcase name="CarsApi Lint Coverage" time="0" classname="Eslint success"/>
+        <testcase name="CarsApi Lint Coverage" time="0" classname="Eslint success"/>
+        <testcase name="CarsApi Eslint Coverage" time="0" classname="Eslint error">
+            <failure type="">Eslint error</failure>
+        </testcase>
+        <testcase name="CarsApi Eslint Coverage" time="0" classname="Eslint error">
+            <failure type="">Eslint error</failure>
+        </testcase>
+        <testcase name="CarsApi Eslint Coverage" time="0" classname="Eslint error">
+            <failure type="">Eslint error</failure>
+        </testcase>
+        <system-out/>
+        <system-err/>
+    </testsuite>
+</testsuites>
